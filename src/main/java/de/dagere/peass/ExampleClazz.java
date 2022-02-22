@@ -8,7 +8,7 @@ class ExampleClazz {
    public void integrationTestedMethod() {
       try {
          System.out.println("Calling integration test");
-         Thread.sleep(1);
+         Thread.sleep(20);
       } catch (InterruptedException e) {
          e.printStackTrace();
       }
